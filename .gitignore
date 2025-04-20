@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Environment variables file
+.env
+
+# Exclude potentially sensitive JSON key files
+*.json
