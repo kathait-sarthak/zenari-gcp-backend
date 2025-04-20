@@ -4,5 +4,7 @@ node_modules
 # Environment variables file
 .env
 
-# Exclude potentially sensitive JSON key files
+# Exclude potentially sensitive JSON key files BUT allow package files
 *.json
+!package.json
+!package-lock.json

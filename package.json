@@ -1,0 +1,18 @@
+{
+  "name": "zenari-gcp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",  
+  "dependencies": {
+    "@google-cloud/speech": "^7.0.1",
+    "@google-cloud/text-to-speech": "^6.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
